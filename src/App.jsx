@@ -1,11 +1,9 @@
 import "./App.css";
-import MyComponent from "./assets/MyComponent";
-import withClickCounter from "./withClickCounter";
+import MyComponent from "./modules/clickCounter/MyComponent";
+import withClickCounter from "./modules/clickCounter/withClickCounter";
 
 const MyComponentWithClickCounter = withClickCounter(MyComponent);
 function App() {
-  // const [count, setCount] = useState(0);
-
   return <MyComponentWithClickCounter />;
 }
 
