@@ -4,7 +4,13 @@ import withClickCounter from "./modules/clickCounter/withClickCounter";
 
 const MyComponentWithClickCounter = withClickCounter(MyComponent);
 function App() {
-  return <MyComponentWithClickCounter />;
+  return (
+    <>
+      <h1>HOC Demo</h1>
+      <h2>onclick counter</h2>
+      <MyComponentWithClickCounter />
+    </>
+  );
 }
 
 export default App;

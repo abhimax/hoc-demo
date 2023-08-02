@@ -4,7 +4,7 @@ import React from "react";
 const MyComponent = ({ clickCounter, onClick }) => {
   return (
     <div>
-      <h2>Click Counter: {clickCounter}</h2>
+      <h3>Click Counter: {clickCounter}</h3>
       <button onClick={onClick}>Click Me</button>
     </div>
   );
